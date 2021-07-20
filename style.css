@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Kumbh Sans;
+    position: relative;
+    min-height: 100vh;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.bottom {
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.bottom img {
+    width: 150%;
+}
+
+.card {
+    height: 320px;
+    position: relative;
+    min-width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+ul {
+    height: 75px;
+    border-top: .5px solid lightgray;
+    padding: 14px 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: center;
+    color: hsl(0, 0%, 59%);
+}
+
+li span {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.bg-card {
+    height: 130px;
+    width: 100%;
+    background-image: url(./images/bg-pattern-card.svg);
+    background-size: cover;
+}
+
+.pic {
+    padding: auto;
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
+    overflow: hidden;
+    position: absolute;
+    background-color: white;
+    top: 90px;
+}
+
+.pic img {
+    display: block;
+    margin: 4px;
+    border-radius: 50%;
+    box-sizing: content-box;
+    width: 72px;
+    height: 72px;
+}
+
+.name {
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.name span {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.loc {
+    font-size: 16px;
+    color: hsl(0, 0%, 59%);
+    margin-top: 10px;
+}
+
+.profile {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    .bottom img {
+        width: 250%;
+        min-height: 200%;
+    }
+    
+}
+
+
+
+
+
+
+
+
